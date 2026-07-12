@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voedingswijzer TCG</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 28px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        .rule-box {
+            background-color: #e8f4f8;
+            border-left: 5px solid #2980b9;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: #2c3e50;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+        .column {
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .wel {
+            background-color: #f0f9eb;
+            border: 2px solid #67c23a;
+        }
+        .niet {
+            background-color: #fef0f0;
+            border: 2px solid #f56c6c;
+        }
+        h2 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            border-bottom: 2px solid rgba(0,0,0,0.05);
+            padding-bottom: 10px;
+        }
+        .wel h2 { color: #67c23a; }
+        .niet h2 { color: #f56c6c; }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        .section-title {
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        .wel .section-title { color: #3b7a1a; }
+        .niet .section-title { color: #9c2828; }
+        
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; padding: 0; }
+            button { display: none; }
+        }
+        .print-btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto 0 auto;
+            padding: 12px;
+            background: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .print-btn:hover { background: #34495e; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>TCG VOEDINGSWIJZER</h1>
+    <div class="subtitle">Richtlijn tegen Hitte (Yang) • Vrij van Gluten & Koemelk</div>
+    
+    <div class="rule-box">
+        💡 GOUDEN BASISREGEL: Eet en drink niets ijskouds rechtstreeks uit de koelkast.<br>
+        Laat alles op kamertemperatuur komen of serveer het warm/lauw.
+    </div>
+
+    <div class="grid">
+        <!-- WEL KOLOM -->
+        <div class="column wel">
+            <h2>🍏 WEL ETEN & DRINKEN</h2>
+            
+            <div class="section">
+                <div class="section-title">Groenten & Fruit</div>
+                <ul>
+                    <li><b>Groenten:</b> Komkommer, (bleek)selderij, spinazie, sla, broccoli, bloemkool, asperges, courgette, aubergine, taugé, bamboescheuten, zeewier, algen. Licht gekookte tomaat, radijs.</li>
+                    <li><b>Fruit:</b> Watermeloen, galia, cantaloupe, appels, peren, grapefruit, citroen, limoen, bananen, kiwi's, bosbessen.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Granen, Koolhydraten & Peulvruchten</div>
+                <ul>
+                    <li><b>Basis:</b> Witte/basmati/zilvervliesrijst, gierst (millet), amarant, mungbonen, mungbonennoodles (glasmie).</li>
+                    <li><b>Peulvruchten:</b> Kikkererwten, zwarte/kidney/bruine bonen. Hummus (liefst zonder of met minimaal knoflook).</li>
+                    <li><b>Brood:</b> Gestoomde rijst-/gierstbroodjes (Mantou/Bao), rijstwafels, zacht glutenvrij gierst- of rijstbrood (niet toasten).</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Eiwitten & Zuivelvervangers</div>
+                <ul>
+                    <li><b>Vis & Vega:</b> Kabeljauw, schelvis, schol, krab, mosselen, oesters, inktvis, eend, tofu.</li>
+                    <li><b>Vervangers:</b> Alpro Soja Mild & Creamy (Greek Style - ongezoet), geiten- of schapenyoghurt (met mate). Saus van tahin (sesampasta) met citroensap en lauw water.</li>
+                    <li><b>Saus-groen:</b> Geraspte komkommer, verse dille, peterselie, munt.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Vetten, Kruiden & Bereiding</div>
+                <ul>
+                    <li><b>Vetten:</b> Extra vierge olijfolie (koud/licht verwarmd), pure amandelpasta.</li>
+                    <li><b>Dranken:</b> Lauw/warm water, groene thee, muntthee, kamillethee, chrysantenthee.</li>
+                    <li><b>Bereiding:</b> Stomen, koken, blancheren, pocheren, inpakken in bakpapier (en papillote).</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- NIET KOLOM -->
+        <div class="column niet">
+            <h2>🌶️ NIET ETEN & DRINKEN</h2>
+            
+            <div class="section">
+                <div class="section-title">Gluten & Koemelkzuivel</div>
+                <ul>
+                    <li><b>Gluten:</b> Tarwe, spelt, rogge, gerst, kamut. (Geen gewoon brood, Franse baguette/stokbrood, pasta, couscous, bloem, koekjes, gebak).</li>
+                    <li><b>Koemelk:</b> Klassieke Griekse yoghurt, koemelk, karnemelk, room, roomkaas, jonge/belegen kaas, oude kaas, Parmezaan, blauwschimmelkaas, roomboter.</li>
+                    <li><b>Smeerboters:</b> Becel ProActiv, margarines en alle plantaardige smeerboters (creëren zwaar vocht).</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Vlees & Hete Specerijen</div>
+                <ul>
+                    <li><b>Vlees:</b> Lamsvlees, rundvlees, wild, varkensvlees, kippenvlees.</li>
+                    <li><b>Specerijen:</b> Chilipeper, cayenne, tabasco, sambal, gedroogde gember, knoflook (ook niet in saus), rauwe ui, prei, mierikswortel, mosterd, kaneel, kruidnagel, nootmuskaat, zwarte/witte peper, kerrie, komijn.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Warme Granen & Genotmiddelen</div>
+                <ul>
+                    <li><b>Granen:</b> Boekweit, teff. Havermout alleen bij uitzondering (gekookt in water met peer).</li>
+                    <li><b>Snacks & Drank:</b> Koffie, alcohol (bier, rode wijn, sterke drank), chocolade, cacao, gefrituurd voedsel, chips, fastfood, geroosterde/zoute noten.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Bereidingswijze (Zware Yang)</div>
+                <ul>
+                    <li><b>Te vermijden:</b> Barbecueën, grillen, frituren, zwaar aanbraden, open roosteren in de oven tot er een harde, krokante of donkere korst ontstaat.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <button class="print-btn" onclick="window.print()">Print / Opslaan als PDF</button>
+</div>
+
+</body>
+</html>
